@@ -1,0 +1,76 @@
+body {
+    background-image: url(../images/hogwarts.gif);
+    width: 100%;
+    background-repeat: round;
+}
+
+h1 {
+    font-size: 43px;
+    border: solid 5px silver;
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+img {
+    margin: 10px;
+}
+
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    border-top: solid silver 2px;
+    border-bottom: solid silver 2px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+span {
+    border: solid silver 2px;
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: yellow; 
+    font-size: 15px;
+}
+
+.background {
+    background-image: url(../images/harry-potter-background-image-4.jpg) ;
+    background-repeat: round;
+    border: solid 5px silver;
+
+}
+
+.container {
+    background-color: rgba(255,255,255,0.2);
+    fill-opacity: 60%;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 3px silver;
+}
+
+#currentword {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    padding: 20px;
+}

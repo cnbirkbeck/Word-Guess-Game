@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cassie Birkbeck's Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.png">
+</head>
+
+<body>
+    <!-- Main Heading-->
+    <div class="heading">
+        <h1>Hangman: Harry Potter Edition</h1>
+    </div>
+
+    <div class="background">
+        <div class="container">
+
+            <!--Changing Image based on correct answer-->
+            <h2>Press Any Key to Get Started</h2>
+            <div>
+                <img id="image" src="assets/images/Potter typing.gif" width="40%" height="200">
+            </div>
+
+            <!--Current Word Container-->
+            <div>
+                <h3 id="currentword">_ _ _ _ _</h3>
+            </div>
+
+            <div id="scoredboard">
+                <!--Guesses Left Container-->
+                <div class="sidebar">
+                    <h3>Guesses Left:
+                        <span id="guessesremaining"></span>
+                    </h3>
+                </div>
+
+                <!--Wins Counter Container-->
+
+                <div class="sidebar">
+                    <h3>Wins:
+                        <span id="wintracker"></span>
+                    </h3>
+                </div>
+
+                <!--Loss Counter Container-->
+                <div class="sidebar">
+                    <h3>Losses:
+                        <span id="losstracker"></span>
+                    </h3>
+                </div>
+
+                <!--Incorrect Guess Container-->
+                <div class="sidebar">
+                    <h3>Incorrect Guesses:
+                        <span id="playerguesses"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Audio-->
+    <div>
+        <!--gryffindor-->
+        <audio id="gryffindor">
+            <source src="./assets/audio/Hedwig's Theme.mp3" type="audio/mp3">
+        </audio>
+        <!-- slytherin-->
+        <audio id="slytherin">
+            <source src="./assets/audio/Hedwig's Theme.mp3" type="audio/mp3">
+        </audio>
+        <!--hufflepuff-->
+        <audio id="hufflepuff">
+            <source src="./assets/audio/Hedwig's Theme.mp3" type="audio/mp3">
+        </audio>
+        <!--ravenclaw-->
+        <audio id="ravenclaw">
+            <source src="./assets/audio/Hedwig's Theme.mp3" type="audio/mp3">
+        </audio>
+        <!--hogwarts-->
+        <audio id="hogwarts">
+            <source src="./assets/audio/Hedwig's Theme.mp3" type="audio/mp3">
+        </audio>
+        <!--dumbledore-->
+        <audio id="dumbledore">
+            <source src="./assets/audio/dumbledore.mp3" type="audio/mp3">
+        </audio>
+        <!--quidditch-->
+        <audio id="quidditch">
+            <source src="./assets/audio/Quidditch World Cup Harry Potter and the Goblet of Fire.mp3" type="audio/mp3">
+        </audio>
+        <!--voldemort-->
+        <audio id="voldemort">
+            <source src="./assets/audio/voldemort.mp3" type="audio/mp3">
+        </audio>
+        <!--boggart-->
+        <audio id="boggart">
+            <source src="./assets/audio/Ridiculous.mp3" type="audio/mp3">
+        </audio>
+        <!--darkmark-->
+        <audio id="darkmark">
+            <source src="./assets/audio/Double Trouble [Harry Potter Film] + Lyrics.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
